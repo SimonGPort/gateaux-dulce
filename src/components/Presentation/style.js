@@ -18,14 +18,14 @@ export const SectionPic = styled.div``;
 export const SectionText = styled.div`
   position: absolute;
   color: white;
-  left: 100px;
+  left: 50px;
   top: 100px;
-  max-width: 600px;
+  max-width: 700px;
 `;
 
 export const TextHeader = styled.h1`
   font-family: League Script;
-  font-size: 4rem;
+  font-size: 5rem;
 `;
 
 export const TextGeneral = styled.h1`
