@@ -1,7 +1,14 @@
-import { Header } from "./style";
+import { Header, LogoPic, ContactText } from "./style";
 
 function InfoHeader() {
-  return <Header>Pour me contacter appelez au : 514-821-2923</Header>;
+  return (
+    <>
+      <Header>
+        <LogoPic src="logoGD.jpeg" alt="logo" />
+        <ContactText>Contact me: 514-837-2334</ContactText>
+      </Header>
+    </>
+  );
 }
 
 export default InfoHeader;

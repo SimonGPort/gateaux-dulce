@@ -19,7 +19,7 @@ export const SectionText = styled.div`
   position: absolute;
   color: white;
   left: 50px;
-  top: 100px;
+  top: 200px;
   max-width: 700px;
 `;
 
