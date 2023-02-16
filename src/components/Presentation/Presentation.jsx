@@ -1,4 +1,11 @@
-import { Main, KarenPic, SectionPic, SectionText } from "./style";
+import {
+  Main,
+  KarenPic,
+  TextHeader,
+  SectionText,
+  TextGeneral,
+  TextGeneralLastChild,
+} from "./style";
 
 /* eslint-disable */
 function Presentation() {
@@ -6,12 +13,14 @@ function Presentation() {
     <Main>
       <KarenPic src="karen.jpeg" alt="karen's pic" />
       <SectionText>
-        <h1>Hi I'm Karen Bailey</h1>
-        <h2>
+        <TextHeader>Hi, I'm Karen Bailey</TextHeader>
+        <TextGeneral>
           <div>My happy place is backing and I love sharing it.</div>
           <div>Every celebration, big or small needs a special cake.</div>
-        </h2>
-        <h2>Indulge in my specialty: delicious Eastern European cakes</h2>
+        </TextGeneral>
+        <TextGeneralLastChild>
+          Indulge in my specialty: delicious Eastern European cakes
+        </TextGeneralLastChild>
       </SectionText>
     </Main>
   );
