@@ -15,7 +15,7 @@ function Presentation() {
       <SectionText>
         <TextHeader>Hi, I'm Karen Bailey</TextHeader>
         <TextGeneral>
-          <div>My happy place is backing and I love sharing it.</div>
+          <div>My happy place is baking and I love sharing it.</div>
           <div>Every celebration, big or small needs a special cake.</div>
         </TextGeneral>
         <TextGeneralLastChild>
