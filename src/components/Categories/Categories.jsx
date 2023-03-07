@@ -4,7 +4,7 @@ import CategoryGrid from "../CategoriesGrid/CategoriesGrid";
 function Categories() {
   return (
     <Main>
-      <Title>Categories</Title>
+      <Title>Our categories</Title>
       <CategoryGrid />
     </Main>
   );

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Image = styled.img`
   width: 100%;
-  border: 1px solid white;
   &:hover {
     transform: scale(1.2);
     transition: 1s;
@@ -17,8 +16,9 @@ export const Wrapper = styled.div`
   cursor: pointer;
 `;
 
-export const Text = styled.h2`
-  font-size: 40px;
+export const Text = styled.h1`
+  text-shadow: 1px 1px 2px black;
+  font-size: 80px;
   color: white;
   z-index: 2;
   position: absolute;
