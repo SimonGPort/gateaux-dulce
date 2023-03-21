@@ -10,6 +10,7 @@ export const Header = styled.div`
 
 export const LogoPic = styled.img`
   height: 100px;
+  cursor: pointer;
 `;
 
 export const ContactText = styled.h4`

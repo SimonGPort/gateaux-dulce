@@ -1,6 +1,6 @@
 import { Image, Wrapper, Text } from "./style";
 
-function CategoriesGrid({ picture, text }) {
+function CategorySquare({ picture, text }) {
   return (
     <Wrapper>
       <Image src={picture} alt="category" />
@@ -9,4 +9,4 @@ function CategoriesGrid({ picture, text }) {
   );
 }
 
-export default CategoriesGrid;
+export default CategorySquare;
